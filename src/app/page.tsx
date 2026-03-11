@@ -178,8 +178,8 @@ export default function Home() {
               >
                 <div className="bg-emerald-100 text-emerald-600 p-2.5 rounded-xl"><Tag className="h-5 w-5" /></div>
                 <div>
-                  <p className="text-[10px] text-slate-500 font-bold uppercase tracking-wider">Desconto Médio</p>
-                  <p className="text-xl xl:text-2xl font-black text-slate-800">55% OFF</p>
+                  <p className="text-[10px] text-slate-500 font-bold uppercase tracking-wider">Melhores</p>
+                  <p className="text-xl xl:text-2xl font-black text-slate-800 uppercase">Ofertas</p>
                 </div>
               </motion.div>
             </div>
