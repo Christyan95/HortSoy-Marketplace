@@ -212,8 +212,8 @@ export default function Home() {
                         onClick={() => toggleInterest(item.id, item.name, item.price)}
                         aria-pressed={interestedItem.includes(item.id)}
                         className={`flex items-center justify-center p-3 sm:p-4 rounded-xl sm:rounded-2xl font-extrabold shadow-sm transition-all duration-300 w-12 h-12 sm:w-14 sm:h-14 ${interestedItem.includes(item.id)
-                            ? 'bg-emerald-500 text-white hover:bg-emerald-600 shadow-emerald-500/30 scale-105'
-                            : 'bg-slate-100 text-slate-600 hover:bg-[var(--color-primary)] hover:text-white hover:shadow-[var(--color-primary)]/30 group-hover:bg-[var(--color-primary)] group-hover:text-white'
+                          ? 'bg-emerald-500 text-white hover:bg-emerald-600 shadow-emerald-500/30 scale-105'
+                          : 'bg-slate-100 text-slate-600 hover:bg-[var(--color-primary)] hover:text-white hover:shadow-[var(--color-primary)]/30 group-hover:bg-[var(--color-primary)] group-hover:text-white'
                           }`}
                         title={interestedItem.includes(item.id) ? "Adicionado aos interesses" : "Demonstrar Interesse"}
                       >
@@ -291,15 +291,12 @@ export default function Home() {
           <div className="relative z-10 flex flex-col lg:flex-row gap-8 md:gap-12 lg:gap-8 items-start">
             <div className="lg:w-1/3">
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-slate-900 mb-4 sm:mb-6 leading-tight">
-                Regras do Marketplace
+                Marketplace
               </h2>
               <p className="text-sm sm:text-base md:text-lg text-slate-600 font-medium mb-6 sm:mb-10 leading-relaxed">
                 Nossa iniciativa visa repassar nossos equipamentos em desuso primeiramente para nosso time, garantindo benefícios tangíveis.
                 Siga os passos ao lado para adquirir seu equipamento.
               </p>
-              <div className="hidden lg:block">
-                <Image src="/logo.png" alt="Logo HortSoy" width={130} height={45} className="opacity-80 drop-shadow-sm grayscale hover:grayscale-0 transition-all duration-500" />
-              </div>
             </div>
 
             <div className="w-full lg:w-2/3 flex justify-start">
@@ -309,7 +306,7 @@ export default function Home() {
                     <MousePointerClick className="h-7 w-7" />
                   </div>
                   <div>
-                    <h3 className="text-xl md:text-2xl font-bold mb-3 text-slate-900">Negocie</h3>
+                    <h3 className="text-xl md:text-2xl font-bold mb-3 text-slate-900">Negocie / Demonstre interesse</h3>
                     <p className="text-sm md:text-base text-slate-500 font-medium leading-relaxed">
                       Demonstre interesse nos itens clicando no botão do produto. Isso iniciará uma conversa direta para negociação e reserva, mas não a garante imediatamente. A reserva definitiva ocorre após o alinhamento com nossa equipe administrativa.
                     </p>
